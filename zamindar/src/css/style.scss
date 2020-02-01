@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../assets/fonts/Gilroy-ExtraBold.otf");
+}
+@font-face {
+    font-family: "Gilroy-light";
+    src: url("../assets/fonts/gilroy-light.otf");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../assets/fonts/Inter-Regular.otf");
+}
+.App {
+    height: 100vh;
+    img {
+        object-fit: cover;
+        vertical-align: bottom;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -2;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 50px;
+        font-family: "Inter";
+        .right {
+            color: white;
+        }
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px;
+        font-family: "Gilroy-Bold";
+        font-size: 2em;
+        #hello {
+            color: white;
+            margin: 0;
+        }
+        .buy {
+            text-decoration: none;
+            font-family: "Inter";
+            border: 1px solid #111111;
+            padding: 10px 20px;
+            margin-top: 30px;
+            color: #111111;
+            font-size: 0.65em;
+        }
+    }
+
+}
